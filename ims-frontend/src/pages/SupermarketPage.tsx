@@ -14,13 +14,13 @@ interface Product {
 const categories = [
  { name: 'Discounts', displayName: 'Discounts & Offers', image: '/src/assets/images/categories/discounts.png' },
  { name: 'Fruits', displayName: 'Fresh Fruits', image: '/src/assets/images/categories/fruits.png' },
- { name: 'Vegetables', displayName: 'Healthy Vegetables', image: '/src/assets/images/categories/vegetables.png' },
+ { name: 'Vegetables', displayName: 'Vegetables', image: '/src/assets/images/categories/vegetables.png' },
  { name: 'Dairy', displayName: 'Dairy Products', image: '/src/assets/images/categories/dairy.png' },
  { name: 'Meat', displayName: 'Poultry & Fish', image: '/src/assets/images/categories/meat.png' },
  { name: 'Oil', displayName: 'Oil, Vinegar & Condiments', image: '/src/assets/images/categories/oil.png' },
- { name: 'Legumes', displayName: 'Beans & Legumes', image: '/src/assets/images/categories/legumes.png' },
+ { name: 'Legumes', displayName: 'Legumes, Pasta & more', image: '/src/assets/images/categories/legumes.png' },
  { name: 'Coffee', displayName: 'Coffee. Kakao & Tee', image: '/src/assets/images/categories/coffee.png' },
- { name: 'Fresh', displayName: 'Fresh Produce', image: '/src/assets/images/categories/fresh.png' },
+ { name: 'Fresh', displayName: 'Fresh & Ready', image: '/src/assets/images/categories/fresh.png' },
  { name: 'ColdCuts', displayName: 'Cold Cuts & Deli', image: '/src/assets/images/categories/coldcuts.png' },
  { name: 'Bakery', displayName: 'Bakery Items', image: '/src/assets/images/categories/bakery.png' },
  { name: 'Frozen', displayName: 'Frozen Foods', image: '/src/assets/images/categories/frozen.png' },
@@ -29,9 +29,9 @@ const categories = [
  { name: 'Alcohol', displayName: 'Alcoholic Beverages', image: '/src/assets/images/categories/alcohol.png' },
  { name: 'WineBeer', displayName: 'Wines & Beers', image: '/src/assets/images/categories/winebeer.png' },
  { name: 'Cleaning', displayName: 'Cleaning Supplies', image: '/src/assets/images/categories/cleaning.png' },
- { name: 'Health', displayName: 'Health & Wellness', image: '/src/assets/images/categories/health.png' },
+ { name: 'Health', displayName: 'Drogerie', image: '/src/assets/images/categories/health.png' },
  { name: 'Baby', displayName: 'Baby Products', image: '/src/assets/images/categories/baby.png' },
- { name: 'Pets', displayName: 'Pet Supplies', image: '/src/assets/images/categories/pets.png' },
+ { name: 'Pets', displayName: 'Pet', image: '/src/assets/images/categories/pets.png' },
 ];
 
 const SupermarketPage: React.FC = () => {
