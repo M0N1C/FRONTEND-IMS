@@ -31,10 +31,14 @@ const NavbarSupermarket: React.FC = () => {
             </Link>
             <Link
               to="/supermarket/cart"
-              className="hover:text-white transition"
+              className="hover:text-white transition flex items-center"
               style={{ color: '#cdedfe' }}
             >
-              Cart
+              <img
+                src="../public/images/bag.png"
+                alt="Cart Icon"
+                className="h-8 w-8" /* Tamaño más grande */
+              />
             </Link>
 
             {/* Auth Section */}
@@ -73,3 +77,4 @@ const NavbarSupermarket: React.FC = () => {
 };
 
 export default NavbarSupermarket;
+
